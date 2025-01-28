@@ -6,3 +6,4 @@
 6.sed 's/.com/.net/g' datos.txt
 7. cat datos.txt|cut -d ',' -f5|grep 'SI'
 8. awk -F, '$3 > 40 {print $2 ","$3}' datos.txt 
+9. awk -F, '$1 < 5 {print $2 "*" $5}' datos.txt
