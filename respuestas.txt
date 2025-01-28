@@ -1,3 +1,5 @@
 1.cat datos.txt | grep -i "Juan"
 2.cat datos.txt| cut -d ',' -f 4
 3.grep '\bPROG\b' datos.txt| wc -l
+4.cat datos.txt| cut -d '-' -f 4|grep "PROG"| wc -l 
+
