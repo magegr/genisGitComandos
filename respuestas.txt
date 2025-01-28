@@ -3,4 +3,5 @@
 3.grep '\bPROG\b' datos.txt| wc -l
 4.cat datos.txt| cut -d '-' -f 4|grep "PROG"| wc -l 
 5.grep '\b.es\b' datos.txt|cut -d ',' -f 2
-6.sed -i 's/.com/.net/g' datos.tx
+6.sed -i 's/.com/.net/g' datos.tx 
+7. cat datos.txt|cut -d ',' -f5|grep 'SI'
